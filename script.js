@@ -51,10 +51,7 @@ function first(e){
     e.stopImmediatePropagation();
     this.removeEventListener("click", first);
 }
-function second(){
-    alert("Stop spending money!");
 
-}
     let expense = {
         name: nameInput.value,
         amount: amountInput.value
