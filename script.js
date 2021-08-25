@@ -50,11 +50,9 @@ function first(e){
     alert("Stop spending money!");
     e.stopImmediatePropagation();
     this.removeEventListener("click", first);
-    addExpenseButton.onclick = second;
 }
 function second(){
     alert("Stop spending money!");
-    bool = alert.canceable;
 
 }
     let expense = {
